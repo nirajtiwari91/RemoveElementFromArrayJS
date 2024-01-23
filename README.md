@@ -4,10 +4,12 @@ Identifying the Index:
 
 A for loop is used to iterate through the array until the target number (numToRemove) is found.
 The loop breaks when the target number is located, and the index (i) is captured.
+
 Shifting Elements:
 
 Another for loop is initiated, starting from the identified index (i), to shift elements one position to the left.
 This effectively removes the target number from the array.
+
 Adjusting Array Length:
 
 The array's length is decremented to eliminate the last element, which is now a duplicate of the preceding one.
